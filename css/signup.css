@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+.signupbox{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    /* padding-top: 150px; */
+    margin: 5vw 40vw;
+    width: 320px;
+    height: 720px;
+    border-radius: 10px;
+    box-shadow: 0 15px 11px gray;
+}
+
+.signupbox > .title{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #3d4450;
+    margin-bottom: 11px;
+}
+
+h2{
+    text-align: center; 
+    margin-left: 45px;
+    color:  aqua;
+}
+
+.message{
+    border-left: 4px solid #d9534f;
+    padding: 12px;
+    margin-left: 0;
+    margin-bottom: 11px;
+    background-color: #fff;
+    border-radius: 10px;
+    font-size: 1rem;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,1);
+}
+
+.input{
+    font-size: 24px;
+    width: 100%;
+    padding: 3px;
+    margin: 2px 6px 16px 0;
+    border-radius: 10px;
+}
+
+#user_role{
+    padding: 2px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    line-height: 15px;
+}
+
+.submit{
+    display: flex;
+    margin: 10px;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.submit > a{
+    color: white;
+    height: 40px;
+    width: 60px;
+    background-color: #66ccff;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 12px;
+    border-radius: 10px;
+    user-select: none;
+}

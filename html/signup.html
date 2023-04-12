@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../img/favicon.ico" type="images/x-ico">
+    <link rel="stylesheet" href="../css/signup.css">
+    <title>注册账户</title>
+</head>
+<body>
+    <div class="signupbox">
+        <div class="title">
+            <a href="../index.html" title="Wingの言绫分享站" tabindex="-1"><h2>Wingの言绫分享站</h2></a>
+        </div>
+        <div class="message register">请在此处注册账号</div>
+        <div>
+            <p>
+                <label for="user_login">
+                    用户名
+                    <br>
+                    <input type="text" name="user_login" id="user_login" class="input" value size="20">
+                </label>
+            </p>
+            <p>
+                <label for="user_email">
+                    电子邮箱
+                    <br>
+                    <input type="text" name="user_email" id="user_email" class="input" value size="25">
+                </label>
+            </p>
+            <p>
+                <label for="user_nick">
+                    昵称
+                    <br>
+                    <input type="text" name="user_nick" id="user_nick" class="input" value size="20">
+                </label>
+            </p>
+            <p>
+                <label for="user_password">密码（最少8位）<br>
+                 <input type="password" name="user_password" id="user_password" class="input" value size="20">
+                </label>
+            </p>
+            <p>
+                <label for="user_repassword">
+                    重复密码
+                    <input type="password" name="user_repassword" id="user_repassword" class="input" value size="20">
+                </label>
+            </p>
+            <p>
+                <label for="user_role">
+                    用户身份：
+                    <select name="user_role" id="user_role">
+                        <option value="subscriber">订阅者</option>
+                        <option value="publisher">发布者</option>
+                        <option value="admin">管理员</option>
+                    </select>
+                </label>
+                <br>
+            </p>
+            <br>
+            <p id="reg_passmail">注册确认信息将通过邮件发送给您。</p>
+
+            <div class="submit">
+                <a href="#" class="submitbotton"><span>注册</span></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
