@@ -110,7 +110,7 @@ body{
     justify-content: space-between; 
     margin: -15px 0 15px;
     color: #fff; 
-    font-size: 0.9em; 	/* set a right value that will never be reached */ 	top: -9999px;
+    font-size: 0.9em; 	/* set a right value that will never be reached */
     width: 320px;
     transition: .5;
 }
