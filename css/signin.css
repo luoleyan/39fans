@@ -39,8 +39,8 @@ body{
     width: 400px;
     height: 420px;
     background-color: rgba(247,244,229,.2);
-    border: 1px solid rgba(191,200,207, 0.9);
-    border-right: 1px solid rgba(255,255,255,.5);
+    border: 1px solid rgba(191,200,207, .9);
+    border-right: 1px solid rgba(191,200,207,.9);
     border-bottom: 0;
     border-radius: 20px;
     backdrop-filter: blur(6px);
@@ -59,7 +59,7 @@ body{
 }
 
 .input-box label{
-    position: absolute; 		/* aligns the text with the left of the box */ 	/* to the left of the text */ 	/* in case of a checkbox or a button */ 	/* if the text is too long, it will be truncated */ 	/* this is an absolute positioned element */ 	/* it will move the text to the left of the box */ 	/* it is not possible to use relative and absolute elements together */ 	left: -9999px; 	/* set a left value that will never be reached */ 	top: -9999px;
+    position: absolute; 		/* aligns the text with the left of the box */ 	/* to the left of the text */ 	/* in case of a checkbox or a button */ 	/* if the text is too long, it will be truncated */ 	/* this is an absolute positioned element */ 	/* it will move the text to the left of the box */ 	/* it is not possible to use relative and absolute elements together */ 	
     top: 50%; 			/* aligns the text with the top of the box */ 	/* in case of a checkbox or a button */
     left: 5px;
     transform: translateY(-50%);
@@ -123,7 +123,8 @@ body{
 }
 
 .remember-forgot a:hover{
-    color: rgba(255,255,255,.7); 	/* change the color of the text */ 	/* this will make the text blink */ 	/* this will make the text display as blink*/ 	color: rgba(255,255,255,1); 	/* change the color of the text */ 	/* this will make the text blink */ 	/* this will make the text display as blink*/ 	transition:.5;
+    color: rgba(255,255,255,.7); 	/* change the color of the text */ 	/* this will make the text blink */ 	/* this will make the text display as blink*/ 
+    transition:.5;
     border-bottom: 1px solid #fff;
 }
 
